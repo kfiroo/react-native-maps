@@ -7,13 +7,11 @@ var {
 var ReactNative = require('react-native');
 var {
   View,
-  NativeMethodsMixin,
   requireNativeComponent,
   StyleSheet,
 } = ReactNative;
 
 var MapCircle = React.createClass({
-  mixins: [NativeMethodsMixin],
 
   propTypes: {
     ...View.propTypes,

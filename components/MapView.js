@@ -7,7 +7,6 @@ var {
 var ReactNative = require('react-native');
 var {
   EdgeInsetsPropType,
-  NativeMethodsMixin,
   Platform,
   ReactNativeViewAttributes,
   View,
@@ -24,7 +23,6 @@ var MapCircle = require('./MapCircle');
 var MapCallout = require('./MapCallout');
 
 var MapView = React.createClass({
-  mixins: [NativeMethodsMixin],
 
   viewConfig: {
     uiViewClassName: 'AIRMap',
